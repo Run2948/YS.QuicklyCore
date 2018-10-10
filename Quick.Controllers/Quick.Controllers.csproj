@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.All" Version="2.1.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Quick.EFCore\Quick.EFCore.csproj" />
+    <ProjectReference Include="..\Quick.IService\Quick.IService.csproj" />
+    <ProjectReference Include="..\Quick.Utility\Quick.Utility.csproj" />
+  </ItemGroup>
+
+</Project>
