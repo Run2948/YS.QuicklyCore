@@ -261,4 +261,4 @@ __pycache__/
 *.pyc
 
 # Bower files
-wwwroot/lib/
+#wwwroot/lib/
