@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="LinqKit.Microsoft.EntityFrameworkCore" Version="1.1.15" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Quick.EFCore\Quick.EFCore.csproj" />
+    <ProjectReference Include="..\Quick.Entity\Quick.Entity.csproj" />
+    <ProjectReference Include="..\Quick.Model\Quick.Model.csproj" />
+    <ProjectReference Include="..\Quick.Utility\Quick.Utility.csproj" />
+  </ItemGroup>
+
+</Project>
